@@ -1,0 +1,64 @@
+body{
+	font-size:150%;
+	text-align:center;
+	background:aqua;
+}
+.highlight{
+	background:yellow;
+}
+
+
+
+
+p{
+	color:blue;
+	font-family:Helvetica;
+	
+}
+
+
+
+#myDiv{
+		text-shadow: 10px 10px blue;
+}
+
+.bottomline{
+	
+	text-decoration:underline;
+	font-style:bold;
+	
+}
+@media(min-width 768px){
+	.container-1{
+	display:flex;
+	border: 1px #ccc solid;
+	padding:40px;
+	flex-direction:column;
+	
+}
+
+	.container-2{
+	justify-content:centre;
+	
+}
+	.container-2 box{
+	flex-basis:27;
+	
+}
+}
+
+.box-1{
+	flex:3;
+	color:red;
+}
+.box-2{
+	flex:2;
+	color:blue;
+}
+.box-3{
+	flex:1;
+	color:green;
+}
+
+.
+
